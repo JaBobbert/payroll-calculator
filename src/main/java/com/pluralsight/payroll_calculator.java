@@ -14,6 +14,8 @@ public class payroll_calculator {
         float pay = scan.nextFloat();
 
         System.out.println("Hello " + name + ". You work " + hours + " hours and get paid $" + pay + " dollars per hour.");
-        //
+        //Return the question with inputs placed in
+        scan.close();
+
     }
 }
